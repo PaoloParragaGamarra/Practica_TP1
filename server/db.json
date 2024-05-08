@@ -1,0 +1,55 @@
+{
+  "treadmills":
+  [
+    {
+      "id": 1,
+      "serialNumber": 12345,
+      "centerId": 1
+    },
+    {
+      "id": 2,
+      "serialNumber": 67891,
+      "centerId": 2
+    }
+  ],
+  "centers":
+  [
+    {
+      "id": 1,
+      "name": "Xenos"
+    },
+    {
+      "id": 2,
+      "name": "Dieter"
+    }
+  ],
+  "health-checks":
+  [
+    {
+      "id": 1,
+      "treadmillid": 1,
+      "year": 3,
+      "month": "June",
+      "day": 4,
+      "hour": 3,
+      "minutes": 4,
+      "seconds": 1,
+      "volts": 4,
+      "watts": 3,
+      "hp": 2
+    },
+    {
+      "id": 2,
+      "treadmillid": 2,
+      "year": 3,
+      "month": "March",
+      "day": 4,
+      "hour": 3,
+      "minutes": 4,
+      "seconds": 1,
+      "volts": 4,
+      "watts": 3,
+      "hp": 2
+    }
+  ]
+}
