@@ -16,11 +16,11 @@ export default {
       </template>
       <template #end class="end">
         <router-link to="/home" class="route-text" aria-label="Go to home">
-          <span class="text-white text-xl"> Home </span>
+          <span class="text-white text-xl"> {{$t('home')}} </span>
         </router-link>
         <span class="separator"></span> <!-- Aquí se agrega el espacio de separación -->
         <router-link to="analytics/health-checks" class="route-text" aria-label="Go to Health Checks">
-          <span class="text-white text-xl"> Health Checks </span>
+          <span class="text-white text-xl"> {{$t('health_Checks')}} </span>
         </router-link>
         <div class="ml-4 flex gap-3">
           <pv-button class="bg-black-alpha-70 text-white border-transparent" @click="changeLanguage('en')" aria-label="Translate english"> EN </pv-button>

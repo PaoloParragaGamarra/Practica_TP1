@@ -1,7 +1,7 @@
 <script>
 
 import HealthCheckRecordCard
-  from "@/analytics/components/health-checks-records-cards/health-check-record-vard.component.vue";
+  from "@/analytics/components/health-checks-records-cards/health-check-record-card.component.vue";
 
 export default {
   name: 'home-page',
